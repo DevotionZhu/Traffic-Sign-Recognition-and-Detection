@@ -2,5 +2,6 @@
 Traffic Sign Recognition and Detection from images after training using machine learning and DIP techniques
 
 Acknowledgements:<br />
-Mithi Sevilla - https://github.com/mithi/vehicle-tracking-2  
-Udacity- Self driving car nanodegree program
+1. Mithi Sevilla - https://github.com/mithi/vehicle-tracking-2  
+2. Udacity- Self driving car nanodegree program  
+3. GTSDB - http://benchmark.ini.rub.de/?section=gtsdb&subsection=news  Sebastian Houben and Johannes Stallkamp and Jan Salmen and Marc Schlipsing and Christian Igel
