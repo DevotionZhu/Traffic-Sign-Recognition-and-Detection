@@ -33,7 +33,7 @@ class Slider:
     scaler, strip = self.prepare(frame, y, ws)
     
     boxes = []
-    y_scores = []
+    y_scores, y_val = [], []
     self.sourcer.new_frame(strip)
     f_color = self.sourcer.color_features()
     f_color_YUV = f_color.reshape(3,len(f_color)//3)
@@ -51,8 +51,11 @@ class Slider:
         if self.classifier.predict(features): 
             x = np.int(scaler * resized_x)
             boxes.append((x, y, ws))
+            y_val.append(1)
+        else:
+            y_val.append(0)    
         y_scores.append(self.classifier.decision_function(features))
-    return boxes, y_scores
+    return boxes, y_scores, y_val
 
   def locate_test(self, frame, window_size, window_position, area):
     
