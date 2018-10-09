@@ -8,4 +8,4 @@ Acknowledgements:
    http://benchmark.ini.rub.de/?section=gtsdb&subsection=news
    
    
-   Results and main code are in slider_test.ipynb
+Results and main code are in slider_test.ipynb
