@@ -6,3 +6,6 @@ Acknowledgements:
 2. Udacity- Self driving car nanodegree program  
 3. GTSDB - Sebastian Houben and Johannes Stallkamp and Jan Salmen and Marc Schlipsing and Christian Igel  
    http://benchmark.ini.rub.de/?section=gtsdb&subsection=news
+   
+   
+   Results and main code are in slider_test.ipynb
